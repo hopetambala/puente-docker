@@ -1,0 +1,6 @@
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/hopetambala/puente-ionic-datacollection
+[submodule "cloudapp"]
+	path = cloudapp
+	url = https://github.com/hopetambala/puente-node-cloudcode

@@ -1,0 +1,8 @@
+{
+  "name": "puente-docker",
+  "version": "1.1.1",
+  "scripts": {
+    "prune": "docker system prune -a --volumes", 
+    "up": "docker-compose up --build -d"
+  }
+}
