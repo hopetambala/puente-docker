@@ -2,7 +2,8 @@
   "name": "puente-docker",
   "version": "1.1.1",
   "scripts": {
-    "prune": "docker system prune -a --volumes", 
-    "up": "docker-compose up --build -d"
+    "docker-prune": "docker system prune -a --volumes", 
+    "docker-up": "docker-compose up --build -d",
+    "github-sub-update":"git submodule update --recursive --remote"
   }
 }
