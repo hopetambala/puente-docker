@@ -4,6 +4,7 @@
   "scripts": {
     "docker-prune": "docker system prune -a --volumes", 
     "docker-up": "docker-compose up --build -d",
+    "docker-down": "docker-compose down",
     "github-sub-update":"git submodule update --recursive --remote"
   }
 }
